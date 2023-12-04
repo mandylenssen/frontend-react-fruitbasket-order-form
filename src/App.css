@@ -1,0 +1,48 @@
+article {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 8px 0;
+    padding: 4px 8px;
+    width: 100%;
+}
+
+.fruit-card article button {
+    margin: 0 8px;
+    padding: 2px 8px;
+    font-size: 16px;
+    width: auto;
+}
+
+.fruit-card button {
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+
+.fruit-card, form {
+    width: 400px;
+    margin: 10px;
+    padding: 10px 20px;
+
+}
+form section {
+    margin: 25px 0 0 0;
+}
+
+label ~ input[type="text"],
+label ~ input[type="number"] {
+    margin-left: 8px;
+    width: 300px;
+}
+
+form button {
+    margin: 10px 0;
+    width: 80px;
+    padding: 10px 0;
+    border-radius: 5px;
+}
